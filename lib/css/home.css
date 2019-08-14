@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Beth+Ellen&display=swap');
+body {
+    background-color: rgb(44, 44, 44);
+    font-family: Lexend Deca;
+    color: white;
+}
+div.header {
+    background-image: linear-gradient(to right, #76ddb0, #1fc8db, #2cb5e8); 
+}
+a {
+    color: white;
+}
+h1 {
+    display: inline-block;
+    font-size: 34px;
+    margin-left: 15px;
+    margin-right: 215px;
+}
+@media (max-width: 568px) {
+    h1 {
+        display: block;
+        text-align: center;
+        margin: auto;
+        font-size: 150%;
+        padding-top: 3%;
+
+    }
+}
+@media (max-width: 1024px) and (min-width: 569px)  {
+    h1 {
+        font-size: 150%;
+        padding-top: 3%;
+    }
+}
+ul {
+    display: inline-flex;
+    list-style-type: none;
+    display: flexbox;
+    flex-direction: row;
+}
+@media (max-width: 568px) {
+    ul {
+        margin: auto;
+        text-align: center;
+        display: block;
+        display: flex;
+        flex-direction: row;
+        padding-left: 8%; 
+        font-size: 150%;
+    }
+}
+@media (max-width: 1024px) and (min-width: 569px) {
+    ul {
+        margin: auto;
+        text-align: center;
+        font-size: 150%;
+        display: block;
+        display: flex;
+        flex-direction: row;
+        padding-left: 15%; 
+    }
+}
+li {
+    margin-right: 13%; 
+    font-size: 34px;
+}
+@media (max-width: 568px){
+    li {
+        font-size: 75%;
+    }
+}
+@media (max-width: 1024px) and (min-width: 569px) {
+    li {
+        font-size: 115%;
+    }
+}
+ul li#homeprop:hover{
+    /*color: rgb(199, 172, 23);*/
+    background: -webkit-linear-gradient(purple, rgb(3, 79, 192));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ul li#internprop:hover{
+    background: -webkit-linear-gradient(rgb(221, 111, 7), crimson);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+ul li#contactprop:hover{
+    background: -webkit-linear-gradient(rgb(148, 146, 23), rgb(228, 195, 10));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ul li#aboutprop:hover{
+    background: -webkit-linear-gradient(rgb(16, 109, 7), rgb(5, 168, 5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p.welcome { 
+    background-color: transparent;
+    font-size: 27px;
+    display: block;
+    padding-bottom: 10%;
+    color: white;
+}
+@media (max-width: 568px){
+    p.welcome {
+        font-size: 115%;
+    }
+}
+p {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+    height: 50%;
+    width: 100;
+    display: block;
+    color: #76ddb0;
+}
+@media (max-width: 568px){
+    p {
+        font-size: 115%;
+    }
+}
+img {
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    width: 33%;
+    height: 33%;
+    padding-bottom: 3%; 
+}
+h2 {
+    display: block;
+    margin-left: 4%;
+    margin-top: 4%;
+    color: white;
+    width: 36%;
+    height: 20%;
+    background-color: #2cb5e8;
+    text-align: center;
+    border-radius: 13px;
+    border: solid 3px #2cb5e8;
+    font-size: 150%;
+    display: inline-flex;
+}
+h2.who_we_are {
+    flex-direction: column;
+}
+h2.unknown {
+    
+    flex-direction: column;
+    margin-left: 20%;
+    float: right;
+    margin-right: 4%;
+}
+
+p.weInfo {
+    margin-top: 10%;
+    color: white; 
+    background-color: #2cb5e8;
+    font-size: 75%;
+    margin-bottom: 5%; 
+    padding-bottom: 10%;
+}
+
+p.mount {
+    display: inline-block;
+    margin-top: 10%;
+    color: white; 
+    background-color: #2cb5e8;
+    font-size: 75%;
+    margin-bottom: 5%; 
+    padding-bottom: 10%;
+}
+h4 {
+    display: inline;
+}
+h5 {
+    margin-top: 2%;
+    text-align: center;
+    color: #76ddb0;
+    font-size: 150%;
+    padding-bottom: 2%;
+}
+@media (max-width: 568px) {
+    h5 {
+        margin-top: 50%;
+        display: block;
+    }
+}
+img.icon1 {
+    height: 10%;
+    width: 10%;
+}
+img.mount {
+    height: 15%;
+    width: 15%;
+}
+div.para {
+    background-color: rgb(44, 44, 44);
+}
+p.mission {
+    padding-bottom: 10%;
+}
+@media (max-width: 568px) {
+    p.mission {
+        margin-top: 5%;
+        display: inline-block;
+    }
+}
+p.extra {
+    text-align: center;
+    margin: auto;
+    color: gold;
+    font-size: 150%;
+    font-family: Beth Ellen;
+    margin-bottom: 5%;
+} 
+
